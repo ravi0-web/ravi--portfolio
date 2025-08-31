@@ -59,6 +59,6 @@ function sendEmail() {
 }
 // scroll
   function scrollToContact() {
-    const contactSection = document.getElementById("contact");
+    const contactSection = document.getElementById("contactForm");
     contactSection.scrollIntoView({ behavior: "smooth" });
   }
