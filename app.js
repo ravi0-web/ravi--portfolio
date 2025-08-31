@@ -57,3 +57,8 @@ function sendEmail() {
     alert("Success! " + res.status);
   });
 }
+// scroll
+  function scrollToContact() {
+    const contactSection = document.getElementById("contact");
+    contactSection.scrollIntoView({ behavior: "smooth" });
+  }
